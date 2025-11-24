@@ -33,6 +33,8 @@ As mentioned above, the dataset is taken from Rezaeezade et al. It was originall
 
 `nonces.npy` contains 6 values for each of the 100,000 traces, each value stored as 2-byte little-endian integers.
 
+traces.npy is divided to tracesA0.npy ,tracesA1.npy ....tracesA9.npy ,each contains 10,000 traces .
+similarly with nonces.npy.
 
 ## ✅ Running the Code
 
@@ -54,7 +56,7 @@ after that You can either:
 
 - **rank.ipynb** — Plots key-rank vs number of traces.
 
--report.pdf contains report
+-report.pdf contains report.
 
 
 
