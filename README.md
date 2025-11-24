@@ -16,15 +16,15 @@ kyber_sidechannel_dataset/
 ├── nonces.npy
 ├── traces.npy
 ├── nonces_dataset/
-│ ├── nonces0.npy
-│ ├── nonces1.npy
+│ ├── noncesA0.npy
+│ ├── noncesA1.npy
 │ ...
-│ └── nonces9.npy
+│ └── noncesA9.npy
 └── traces_dataset/
-│ ├── traces0.npy
-│ ├── traces1.npy
+│ ├── tracesA0.npy
+│ ├── tracesA1.npy
 ...
-│ └── traces9.npy
+│ └── tracesA9.npy
 
 
 As mentioned above, the dataset is taken from Rezaeezade et al. It was originally provided as MATLAB files and has been converted into NumPy (`.npy`) format.
