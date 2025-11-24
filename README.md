@@ -45,8 +45,16 @@ after that You can either:
 - simply view the results already included in the notebook outputs.
 
 
+## 📘 Notebooks Overview
 
+- **SCA.ipynb** — Performs ML-based side-channel analysis using  
+  Random Forest, Logistic Regression, SVC, and a Single-Layer Perceptron.
 
+- **top10.ipynb** — Identifies and displays the top 10 candidate keys with the highest log-likelihood.
+
+- **rank.ipynb** — Plots key-rank vs number of traces.
+
+-report.pdf contains report
 
 
 
