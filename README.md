@@ -49,14 +49,43 @@ after that You can either:
 
 ## 📘 Notebooks Overview
 
+### 🛠️ Core Analysis Notebooks
+The root directory contains the primary entry-point notebooks used to run evaluations, trace feature significance, and benchmark overall metrics:
+
 - **SCA.ipynb** — Performs ML-based side-channel analysis using  
   Random Forest, Logistic Regression, SVC, and a Single-Layer Perceptron.
 
-- **top10.ipynb** — Identifies and displays the top 10 candidate keys with the highest log-likelihood.
+- **top10.ipynb** — Identifies and displays the top 10 candidate keys with the highest log-likelihood for different poi values using random forest model.
 
-- **rank.ipynb** — Plots key-rank vs number of traces.
+- **rank.ipynb** — Plots key-rank vs number of traces for randomforest model.
 
--report.pdf contains report.
+---
+
+### 📂 Model-Specific Performance Directories
+Each folder below represents an isolated pipeline stage containing its respective implementation scripts (`.ipynb`), quantitative metric arrays (`.json`), and  subkey convergence curves (`.pdf` format for both a_0 and a_1):
+
+
+
+* 📁- ***RF/***- This folder contains code(ipynb files),results(json files),plots of key-rank vs no.of traces(pdf for both a0,a1) using Random Forest model for different poi values .
+
+* 📁-  ***XGB/***- This folder contains code(ipynb files),results(json files),plots of key-rank vs no.of traces (pdf for both a0,a1)using XGboost model for different poi values .
+
+* 📁-  ***SVC/***- This folder contains code(ipynb file),results(json files),plots of key-rank vs no.of traces (pdf for both a0,a1)using Support Vector Classifier model for different poi values .
+
+* 📁-  ***LR/***- This folder contains code(ipynb file),results(json files),plots of key-rank vs no.of traces (pdf for both a0,a1)using Logistic Regression model for different poi values .
+
+* 📁-  ***SLP/***- This folder contains code(ipynb file),results(json files),plots of key-rank vs no.of traces (pdf for both a0,a1)using Single Layer Perceptron model for different poi values .
+
+* 📁-  ***CNN/***- This folder contains code(ipynb file),results(json file),plots of key-rank vs no.of traces (pdf for both a0,a1)using Convolutional Neural Network .
+
+* 📁-  ***LSTM_RNN/***- This folder contains code(ipynb file) of Long Short-Term Memory and Recurrent Neural Network .
+
+
+---
+
+### 📄 Final Deliverables
+-clg_report.pdf contains report.
+
 
 
 
