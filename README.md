@@ -62,7 +62,7 @@ The root directory contains the primary entry-point notebooks used to run evalua
 ---
 
 ### 📂 Model-Specific Performance Directories
-Each folder below represents an isolated pipeline stage containing its respective implementation scripts (`.ipynb`), quantitative metric arrays (`.json`), and  subkey convergence curves (`.pdf` format for both a_0 and a_1):
+Each folder below represents an isolated pipeline stage containing its respective implementation scripts (`.ipynb`), quantitative metric arrays (`.json`), and  subkey convergence curves (`.pdf` format for both a_0 and a_1)for diiferent poi values:
 
 
 
